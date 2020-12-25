@@ -2,29 +2,19 @@
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
 <mapper namespace="com.itlike.mapper.TeacherMapper" >
   <resultMap id="BaseResultMap" type="com.itlike.domain.Teacher" >
-    <id column="teacher_id" property="teacherId" jdbcType="INTEGER" />
-    <result column="teacher_name" property="teacherName" jdbcType="VARCHAR" />
+    <result column="TEACHER_ID" property="teacherId" jdbcType="DECIMAL" />
+    <result column="TEACHER_NAME" property="teacherName" jdbcType="VARCHAR" />
+    <result column="COURSE" property="course" jdbcType="VARCHAR" />
+    <result column="AGE" property="age" jdbcType="DECIMAL" />
   </resultMap>
-  <delete id="deleteByPrimaryKey" parameterType="java.lang.Integer" >
-    delete from teacher
-    where teacher_id = #{teacherId,jdbcType=INTEGER}
-  </delete>
   <insert id="insert" parameterType="com.itlike.domain.Teacher" >
-    insert into teacher (teacher_id, teacher_name)
-    values (#{teacherId,jdbcType=INTEGER}, #{teacherName,jdbcType=VARCHAR})
+    insert into TEACHER (TEACHER_ID, TEACHER_NAME, COURSE, 
+      AGE)
+    values (#{teacherId,jdbcType=DECIMAL}, #{teacherName,jdbcType=VARCHAR}, #{course,jdbcType=VARCHAR}, 
+      #{age,jdbcType=DECIMAL})
   </insert>
-  <update id="updateByPrimaryKey" parameterType="com.itlike.domain.Teacher" >
-    update teacher
-    set teacher_name = #{teacherName,jdbcType=VARCHAR}
-    where teacher_id = #{teacherId,jdbcType=INTEGER}
-  </update>
-  <select id="selectByPrimaryKey" resultMap="BaseResultMap" parameterType="java.lang.Integer" >
-    select teacher_id, teacher_name
-    from teacher
-    where teacher_id = #{teacherId,jdbcType=INTEGER}
-  </select>
   <select id="selectAll" resultMap="BaseResultMap" >
-    select teacher_id, teacher_name
-    from teacher
+    select TEACHER_ID, TEACHER_NAME, COURSE, AGE
+    from TEACHER
   </select>
 </mapper>
