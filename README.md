@@ -1,14 +1,14 @@
-###excel����oracle����
-###������
-#####��������Tomcat8
-#####  jdk��1.8
-#####  ��˿�ܣ�ssm���
-#####  ���ݿ�汾��oracle11
-#####  ���ݿ����ӳأ�c3po
-#####  Excel��ȡ���ߣ�poi 
-###�÷�
-#####  ����ssm����,����дdao�㣨��map�Ͷ�̬�������У���Excel�����ݿ��ʽд�ã�Ȼ����Excel-oracle.propertiesд�����þͿ��Խ��е���
-###ʵ�ֹ���
-#####���Զ����ո񣬲����ظ��û��ڼ��г���
-#####���Զ�����Ƿ�id��ͻ�������ظ��û��ڼ��г���
+###  excel导入oracle工具
+###环境：
+#####服务器：Tomcat8
+#####  jdk：1.8
+#####  后端框架：ssm框架
+#####  数据库版本：oracle11
+#####  数据库连接池：c3po
+#####  Excel读取工具：poi 
+### 用法
+#####  配置ssm环境,无需写dao层（用map和动态代理进行），Excel与数据库格式写好，然后在Excel-oracle.properties写好配置就可以进行导入
+### 实现功能
+##### 能自动检测空格，并返回给用户第几行出错
+##### 能自动检测是否id冲突，并返回给用户第几行出错
 
