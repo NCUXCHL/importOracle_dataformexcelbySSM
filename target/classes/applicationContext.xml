@@ -21,5 +21,13 @@
     <!--导入springMVC-->
     <import resource="classpath:application-mvc.xml"/>
 
+    <!--加载并设置Excel-db-mapper.properties为UTF-8编码，支持中英文-->
+    <context:property-placeholder location="classpath:excel-db-mapper.properties"
+                                  file-encoding="utf-8" ignore-unresolvable="true" />
 
-</beans>
+
+
+    <bean id="teacherService" class="com.itlike.service.impl.TeacherServiceImpl">
+        <property name="teacherMapper" ref="teacherMapper"></property>
+    </bean>
+    </beans>

@@ -17,4 +17,22 @@
     select TEACHER_ID, TEACHER_NAME, COURSE, AGE
     from TEACHER
   </select>
+  <!-- 新增用户，用遍历Map的key和value的方式，可以实现只插入有效值 -->
+  <!-- 表头取值必须用${xxxxx},不可以用#{xxxxx}，否则会报错 -->
+  <insert id="insertTeacher" parameterType="java.util.Map">
+    insert into ${table_name} (
+    <foreach collection="columnMap" item="value" index="key" separator=",">
+      ${key}
+    </foreach>
+    )
+    values (
+    <foreach collection="columnMap" item="value" index="key" separator=",">
+      #{value}
+    </foreach>
+    )
+  </insert>
+
+
+
+
 </mapper>

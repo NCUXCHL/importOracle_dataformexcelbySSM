@@ -5,8 +5,10 @@
 <!-- 配置生成器 -->
 <generatorConfiguration>
 
-	<context id="mysql" defaultModelType="hierarchical"
+	<classPathEntry location="src/main/resources/lib/ojdbc6.jar"/>
+	<context id="oracle" defaultModelType="hierarchical"
 			 targetRuntime="MyBatis3Simple">
+
 
 		<!-- 自动识别数据库关键字，
 		默认false，如果设置为true，
@@ -36,8 +38,8 @@
 		</commentGenerator>
 
 		<!-- 数据库连接信息 -->
-		<jdbcConnection driverClass="com.mysql.jdbc.Driver"
-						connectionURL="jdbc:mysql:///books" userId="root" password="root">
+		<jdbcConnection driverClass="oracle.jdbc.driver.OracleDriver"
+						connectionURL="jdbc:oracle:thin:@127.0.0.1:1521:orcl" userId="root123" password="1234">
 		</jdbcConnection>
 
 		<!-- java类型处理器 用于处理数据库中的类型到Java中的类型，

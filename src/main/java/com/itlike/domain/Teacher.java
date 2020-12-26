@@ -42,4 +42,14 @@ public class Teacher {
     public void setAge(int age) {
         this.age = age;
     }
+
+    @Override
+    public String toString() {
+        return "Teacher{" +
+                "teacherId=" + teacherId +
+                ", teacherName='" + teacherName + '\'' +
+                ", course='" + course + '\'' +
+                ", age=" + age +
+                '}';
+    }
 }

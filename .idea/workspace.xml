@@ -6,44 +6,70 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="aa0ba8bc-bac4-46b0-99da-a164c9d6e147" name="Default Changelist" comment="" />
+    <list default="true" id="5d2cabe6-e117-44e8-821a-f4bb4c809fa9" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SSMMavenPro.iml" beforeDir="false" afterPath="$PROJECT_DIR$/SSMMavenPro.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/itlike/domain/Teacher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/itlike/domain/Teacher.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/itlike/mapper/TeacherMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/itlike/mapper/TeacherMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/itlike/service/TeacherService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/itlike/service/TeacherService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/itlike/service/impl/TeacherServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/itlike/service/impl/TeacherServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/itlike/test/test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/itlike/test/test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/itlike/test/testTest1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/itlike/test/testTest1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/itlike/web/TeacherController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/itlike/web/TeacherController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application-mvc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application-mvc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application-mybatis.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application-mybatis.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/code.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/code.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com.itlike.mapper/TeacherMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com.itlike.mapper/TeacherMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/db.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/db.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/excel-db-mapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/excel-db-mapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/generatorConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/generatorConfig.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/common/common.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/static/common/common.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/js/a.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/static/js/a.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/SSMMavenPro/WEB-INF/classes/application-mvc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/SSMMavenPro/WEB-INF/classes/application-mvc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/SSMMavenPro/WEB-INF/classes/application-mybatis.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/SSMMavenPro/WEB-INF/classes/application-mybatis.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/SSMMavenPro/WEB-INF/classes/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/SSMMavenPro/WEB-INF/classes/applicationContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/SSMMavenPro/WEB-INF/classes/com.itlike.mapper/TeacherMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/SSMMavenPro/WEB-INF/classes/com.itlike.mapper/TeacherMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/SSMMavenPro/WEB-INF/classes/com/itlike/domain/Teacher.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/SSMMavenPro/WEB-INF/classes/com/itlike/domain/Teacher.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/SSMMavenPro/WEB-INF/classes/com/itlike/mapper/TeacherMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/SSMMavenPro/WEB-INF/classes/com/itlike/mapper/TeacherMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/SSMMavenPro/WEB-INF/classes/com/itlike/service/TeacherService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/SSMMavenPro/WEB-INF/classes/com/itlike/service/TeacherService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/SSMMavenPro/WEB-INF/classes/com/itlike/service/impl/TeacherServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/SSMMavenPro/WEB-INF/classes/com/itlike/service/impl/TeacherServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/SSMMavenPro/WEB-INF/classes/com/itlike/web/TeacherController$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/SSMMavenPro/WEB-INF/classes/com/itlike/web/TeacherController$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/SSMMavenPro/WEB-INF/classes/com/itlike/web/TeacherController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/SSMMavenPro/WEB-INF/classes/com/itlike/web/TeacherController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/SSMMavenPro/WEB-INF/classes/db.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/SSMMavenPro/WEB-INF/classes/db.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/SSMMavenPro/WEB-INF/classes/generatorConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/SSMMavenPro/WEB-INF/classes/generatorConfig.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/SSMMavenPro/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/SSMMavenPro/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/SSMMavenPro/static/EmployeeTpl.xls" beforeDir="false" afterPath="$PROJECT_DIR$/target/SSMMavenPro/static/EmployeeTpl.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/SSMMavenPro/static/js/a.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/SSMMavenPro/static/js/a.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application-mvc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application-mvc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application-mybatis.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application-mybatis.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/applicationContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com.itlike.mapper/TeacherMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com.itlike.mapper/TeacherMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/itlike/domain/Teacher.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/itlike/domain/Teacher.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/itlike/mapper/TeacherMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/itlike/mapper/TeacherMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/itlike/service/TeacherService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/itlike/service/TeacherService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/itlike/service/impl/TeacherServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/itlike/service/impl/TeacherServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/itlike/web/TeacherController$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/itlike/web/TeacherController$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/itlike/web/TeacherController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/itlike/web/TeacherController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/db.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/db.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/generatorConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/generatorConfig.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="CompilerWorkspaceConfiguration">
-    <option name="MAKE_PROJECT_ON_SAVE" value="true" />
-  </component>
-  <component name="DatabaseView">
-    <option name="SHOW_INTERMEDIATE" value="true" />
-    <option name="GROUP_DATA_SOURCES" value="true" />
-    <option name="GROUP_SCHEMA" value="true" />
-    <option name="GROUP_CONTENTS" value="false" />
-    <option name="SORT_POSITIONED" value="false" />
-    <option name="SHOW_EMPTY_GROUPS" value="false" />
-    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
-    <option name="HIDDEN_KINDS">
-      <set />
-    </option>
-    <expand />
-    <select />
-  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Jsp File" />
-        <option value="Interface" />
         <option value="Class" />
-        <option value="JavaScript File" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="JRebelWorkspace">
-    <option name="jrebelEnabledAutocompile" value="true" />
   </component>
   <component name="LogFilters">
     <option name="FILTER_ERRORS" value="false" />
@@ -52,68 +78,122 @@
     <option name="FILTER_DEBUG" value="true" />
     <option name="CUSTOM_FILTER" />
   </component>
-  <component name="MavenImportPreferences">
-    <option name="generalSettings">
-      <MavenGeneralSettings>
-        <option name="mavenHome" value="D:/Application/apache-maven-3.6.3" />
-      </MavenGeneralSettings>
-    </option>
-    <option name="importingSettings">
-      <MavenImportingSettings>
-        <option name="importAutomatically" value="true" />
-        <option name="vmOptionsForImporter" value="-Xmx768m" />
-      </MavenImportingSettings>
-    </option>
-  </component>
-  <component name="ProjectId" id="1lBwXVECWswPGyxqVNwv3c9A138" />
+  <component name="ProjectId" id="1lv3zsDDeDgFiJ4SrYzj3fBxcKM" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="D:/javaProject/Excel_Web_demo_version" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../SSMMaven_Message" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
-    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="settings.editor.selected.configurable" value="fileTemplates" />
   </component>
   <component name="RecentsManager">
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="com.itlike.service.impl" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\NewC_Disk\Desktop\Java_project_team\SSMMavenPro_oracle_excel\src\main\resources" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\NewC_Disk\Desktop\SSM权限管理系统购买\01课程代码资料\maven\代码\SSMMavenPro\src\main\webapp\static\plugins" />
-      <recent name="D:\NewC_Disk\Desktop\SSM权限管理系统购买\01课程代码资料\maven\代码\SSMMavenPro\src\main\webapp\static" />
-      <recent name="D:\撩课-JavaEE学科\16-Maven\代码\SSMMavenPro\src\main\resources" />
-      <recent name="D:\撩课-JavaEE学科\16-Maven\代码\SSMMavenPro\src\main\webapp\WEB-INF" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.itlike.domain" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\NewC_Disk\Desktop\SSM权限管理系统购买\01课程代码资料\maven\代码\SSMMavenPro\src\main\webapp\static" />
-      <recent name="D:\NewC_Disk\Desktop\SSM权限管理系统购买\01课程代码资料\maven\代码\SSMMavenPro\src\main\webapp\static\plugins" />
-      <recent name="D:\NewC_Disk\Desktop\SSM权限管理系统购买\01课程代码资料\maven\代码\SSMMavenPro\src\main\webapp\static\js" />
-      <recent name="D:\NewC_Disk\Desktop\SSM权限管理系统购买\01课程代码资料\maven\代码\SSMMavenPro\src\main\resources\com.itlike.mapper" />
-      <recent name="D:\撩课-JavaEE学科\16-Maven\代码\SSMMavenPro\src\main\resources\com.itlike.mapper" />
+      <recent name="D:\NewC_Disk\Desktop\Java_project_team\SSMMavenPro_oracle_excel\src\main\java\com\itlike\mapper" />
+      <recent name="D:\NewC_Disk\Desktop\Java_project_team\SSMMavenPro_oracle_excel\src\main\webapp\static\plugins" />
     </key>
   </component>
-  <component name="RunManager">
-    <configuration name="Tomcat8" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.51" ALTERNATIVE_JRE_ENABLED="false">
-      <option name="BROWSER_ID" value="98ca6316-2f89-46d9-a9e5-fa9e2b0625b3" />
-      <option name="UPDATE_ON_FRAME_DEACTIVATION" value="true" />
-      <option name="UPDATE_CLASSES_ON_FRAME_DEACTIVATION" value="true" />
+  <component name="RunManager" selected="Tomcat Server.Tomcat8">
+    <configuration name="testTest1.test0" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SSMMavenPro" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.itlike.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.itlike.test" />
+      <option name="MAIN_CLASS_NAME" value="com.itlike.test.testTest1" />
+      <option name="METHOD_NAME" value="test0" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SSMMavenPro" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.itlike.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.itlike.test" />
+      <option name="MAIN_CLASS_NAME" value="com.itlike.test.test" />
+      <option name="METHOD_NAME" value="test1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SSMMavenPro" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.itlike.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.itlike.test" />
+      <option name="MAIN_CLASS_NAME" value="com.itlike.test.test" />
+      <option name="METHOD_NAME" value="test2" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test.test4" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SSMMavenPro" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.itlike.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.itlike.test" />
+      <option name="MAIN_CLASS_NAME" value="com.itlike.test.test" />
+      <option name="METHOD_NAME" value="test4" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test.write2Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SSMMavenPro" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.itlike.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.itlike.test" />
+      <option name="MAIN_CLASS_NAME" value="com.itlike.test.test" />
+      <option name="METHOD_NAME" value="write2Test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Tomcat8" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.511" ALTERNATIVE_JRE_ENABLED="true" ALTERNATIVE_JRE_PATH="1.8">
+      <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
         <artifact name="SSMMavenPro:war exploded">
           <settings>
@@ -122,18 +202,15 @@
         </artifact>
       </deployment>
       <server-settings>
-        <option name="BASE_DIRECTORY_NAME" value="Unnamed_SSMMavenPro" />
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_SSMMavenPro_2" />
       </server-settings>
-      <log_file checked="false" alias="Tomcat Localhost Log" path="%IDEA_RUN:CATALINA_BASE%/logs/localhost.*" />
+      <predefined_log_file enabled="true" id="Tomcat" />
       <predefined_log_file enabled="true" id="Tomcat Catalina" />
       <predefined_log_file id="Tomcat Manager" />
       <predefined_log_file id="Tomcat Host Manager" />
       <predefined_log_file id="Tomcat Localhost Access" />
       <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="52402" />
-      </RunnerSettings>
-      <RunnerSettings RunnerId="JRebel Debug">
-        <option name="DEBUG_PORT" value="52403" />
+        <option name="DEBUG_PORT" value="10105" />
       </RunnerSettings>
       <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
         <option name="USE_ENV_VARIABLES" value="true" />
@@ -151,36 +228,6 @@
         </SHUTDOWN>
       </ConfigurationWrapper>
       <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
-        <option name="USE_ENV_VARIABLES" value="true" />
-        <STARTUP>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </STARTUP>
-        <SHUTDOWN>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </SHUTDOWN>
-      </ConfigurationWrapper>
-      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="JRebel Debug">
-        <option name="USE_ENV_VARIABLES" value="true" />
-        <STARTUP>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </STARTUP>
-        <SHUTDOWN>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </SHUTDOWN>
-      </ConfigurationWrapper>
-      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="JRebel Executor">
         <option name="USE_ENV_VARIABLES" value="true" />
         <STARTUP>
           <option name="USE_DEFAULT" value="true" />
@@ -217,11 +264,93 @@
         </option>
       </method>
     </configuration>
+    <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" ALTERNATIVE_JRE_ENABLED="true" ALTERNATIVE_JRE_PATH="1.8">
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="SSMMavenPro:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="_SSMMavenPro" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="10105" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="SSMMavenPro:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.test.write2Test" />
+        <item itemvalue="JUnit.test.test4" />
+        <item itemvalue="JUnit.test.test2" />
+        <item itemvalue="JUnit.testTest1.test0" />
+        <item itemvalue="JUnit.test.test1" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
       <list>
         <serviceView>
+          <option name="contentProportion" value="0.012303486" />
           <treeState>
             <expand>
               <path>
@@ -245,13 +374,17 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="aa0ba8bc-bac4-46b0-99da-a164c9d6e147" name="Default Changelist" comment="" />
-      <created>1556676879643</created>
+      <changelist id="5d2cabe6-e117-44e8-821a-f4bb4c809fa9" name="Default Changelist" comment="" />
+      <created>1608464002201</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1556676879643</updated>
-      <workItem from="1556676907480" duration="4497000" />
-      <workItem from="1607083858132" duration="17314000" />
+      <updated>1608464002201</updated>
+      <workItem from="1608464017345" duration="11865000" />
+      <workItem from="1608553066175" duration="39488000" />
+      <workItem from="1608887162527" duration="20154000" />
+      <workItem from="1608967179379" duration="123000" />
+      <workItem from="1608979804230" duration="66000" />
+      <workItem from="1608985405025" duration="1784000" />
     </task>
     <servers />
   </component>
@@ -259,135 +392,77 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="449" y="38" width="651" height="747" key="#Tomcat8" timestamp="1607083918024">
+    <state x="223" y="68" width="1089" height="717" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1608464223465">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="449" y="38" width="651" height="747" key="#Tomcat8/0.0.1536.824@0.0.1536.824" timestamp="1607083918024" />
-    <state x="223" y="68" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1607083954511">
+    <state x="223" y="68" width="1089" height="717" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1608464223465" />
+    <state x="574" y="122" key="#com.intellij.ide.util.MemberChooser" timestamp="1608814583446">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="223" y="68" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1607083954511" />
-    <state x="549" y="168" key="FileChooserDialogImpl" timestamp="1607153206923">
+    <state x="574" y="122" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1608814583446" />
+    <state x="548" y="154" key="FileChooserDialogImpl" timestamp="1608979867532">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="549" y="168" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1607153206923" />
-    <state width="1024" height="203" key="GridCell.Tab.0.bottom" timestamp="1607153349841">
+    <state x="548" y="154" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1608979867532" />
+    <state width="1445" height="619" key="GridCell.Tab.0.bottom" timestamp="1608986660334">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1024" height="203" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1607153349841" />
-    <state width="1024" height="203" key="GridCell.Tab.0.center" timestamp="1607153349841">
+    <state width="1445" height="619" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1608986660334" />
+    <state width="1445" height="619" key="GridCell.Tab.0.center" timestamp="1608986660334">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1024" height="203" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1607153349841" />
-    <state width="1024" height="203" key="GridCell.Tab.0.left" timestamp="1607153349840">
+    <state width="1445" height="619" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1608986660334" />
+    <state width="1445" height="619" key="GridCell.Tab.0.left" timestamp="1608986660334">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1024" height="203" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1607153349840" />
-    <state width="1024" height="203" key="GridCell.Tab.0.right" timestamp="1607153349841">
+    <state width="1445" height="619" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1608986660334" />
+    <state width="1445" height="619" key="GridCell.Tab.0.right" timestamp="1608986660334">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1024" height="203" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1607153349841" />
-    <state width="1024" height="203" key="GridCell.Tab.1.bottom" timestamp="1607153349841">
+    <state width="1445" height="619" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1608986660334" />
+    <state width="1445" height="619" key="GridCell.Tab.1.bottom" timestamp="1608986660334">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1024" height="203" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1607153349841" />
-    <state width="1024" height="203" key="GridCell.Tab.1.center" timestamp="1607153349841">
+    <state width="1445" height="619" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1608986660334" />
+    <state width="1445" height="619" key="GridCell.Tab.1.center" timestamp="1608986660334">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1024" height="203" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1607153349841" />
-    <state width="1024" height="203" key="GridCell.Tab.1.left" timestamp="1607153349841">
+    <state width="1445" height="619" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1608986660334" />
+    <state width="1445" height="619" key="GridCell.Tab.1.left" timestamp="1608986660334">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1024" height="203" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1607153349841" />
-    <state width="1024" height="203" key="GridCell.Tab.1.right" timestamp="1607153349841">
+    <state width="1445" height="619" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1608986660334" />
+    <state width="1445" height="619" key="GridCell.Tab.1.right" timestamp="1608986660334">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1024" height="203" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1607153349841" />
-    <state x="299" y="68" key="Maven.ArtifactSearchDialog" timestamp="1607148602565">
+    <state width="1445" height="619" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1608986660334" />
+    <state width="1445" height="619" key="GridCell.Tab.2.bottom" timestamp="1608986660335">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="299" y="68" key="Maven.ArtifactSearchDialog/0.0.1536.824@0.0.1536.824" timestamp="1607148602565" />
-    <state x="270" y="55" key="SettingsEditor" timestamp="1607153080137">
+    <state width="1445" height="619" key="GridCell.Tab.2.bottom/0.0.1536.824@0.0.1536.824" timestamp="1608986660335" />
+    <state width="1445" height="619" key="GridCell.Tab.2.center" timestamp="1608986660335">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="270" y="55" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1607153080137" />
-  </component>
-  <component name="masterDetails">
-    <states>
-      <state key="ArtifactsStructureConfigurable.UI">
-        <settings>
-          <artifact-editor />
-          <last-edited>SSMMavenPro:war</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-                <option value="0.5" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="FacetStructureConfigurable.UI">
-        <settings>
-          <last-edited>Web</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="GlobalLibrariesConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="JdkListConfigurable.UI">
-        <settings>
-          <last-edited>1.8</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ModuleStructureConfigurable.UI">
-        <settings>
-          <last-edited>SSMMavenPro</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-                <option value="0.6" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectLibrariesConfigurable.UI">
-        <settings>
-          <last-edited>Maven: junit:junit:4.11</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-    </states>
+    <state width="1445" height="619" key="GridCell.Tab.2.center/0.0.1536.824@0.0.1536.824" timestamp="1608986660335" />
+    <state width="1445" height="619" key="GridCell.Tab.2.left" timestamp="1608986660334">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1445" height="619" key="GridCell.Tab.2.left/0.0.1536.824@0.0.1536.824" timestamp="1608986660334" />
+    <state width="1445" height="619" key="GridCell.Tab.2.right" timestamp="1608986660335">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1445" height="619" key="GridCell.Tab.2.right/0.0.1536.824@0.0.1536.824" timestamp="1608986660335" />
+    <state x="299" y="68" key="Maven.ArtifactSearchDialog" timestamp="1608793174454">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="299" y="68" key="Maven.ArtifactSearchDialog/0.0.1536.824@0.0.1536.824" timestamp="1608793174454" />
+    <state x="270" y="0" key="SettingsEditor" timestamp="1608473148019">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="270" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1608473148019" />
+    <state x="449" y="237" key="com.intellij.ide.util.TipDialog" timestamp="1608979807945">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="449" y="237" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1608979807945" />
   </component>
 </project>

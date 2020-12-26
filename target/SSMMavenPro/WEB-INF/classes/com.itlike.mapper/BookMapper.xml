@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.itlike.mapper.BookMapper" >
+  <resultMap id="BaseResultMap" type="com.itlike.domain.Book" >
+    <result column="ID" property="id" jdbcType="DECIMAL" />
+    <result column="BOOKNAME" property="bookname" jdbcType="VARCHAR" />
+    <result column="AUTHOR" property="author" jdbcType="VARCHAR" />
+    <result column="PRICE" property="price" jdbcType="DECIMAL" />
+    <result column="CATEGORY" property="category" jdbcType="VARCHAR" />
+  </resultMap>
+  <insert id="insert" parameterType="com.itlike.domain.Book" >
+    insert into BOOK (ID, BOOKNAME, AUTHOR, 
+      PRICE, CATEGORY)
+    values (#{id,jdbcType=DECIMAL}, #{bookname,jdbcType=VARCHAR}, #{author,jdbcType=VARCHAR}, 
+      #{price,jdbcType=DECIMAL}, #{category,jdbcType=VARCHAR})
+  </insert>
+  <select id="selectAll" resultMap="BaseResultMap" >
+    select ID, BOOKNAME, AUTHOR, PRICE, CATEGORY
+    from BOOK
+  </select>
+</mapper>

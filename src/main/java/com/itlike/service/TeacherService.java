@@ -1,5 +1,11 @@
 package com.itlike.service;
 
+import com.itlike.domain.Teacher;
+
+import java.util.Map;
+
 public interface TeacherService {
-    public void save(String name);
+    public int save(Teacher teacher);
+    public int saveMap(Map columnMap);
+
 }

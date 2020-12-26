@@ -47,18 +47,29 @@
       <version>2.5</version>
       <scope>provided</scope>
     </dependency>
-    <!--mysql驱动-->
+
     <dependency>
-      <groupId>mysql</groupId>
-      <artifactId>mysql-connector-java</artifactId>
-      <version>5.1.21</version>
+      <groupId>com.alibaba</groupId>
+      <artifactId>fastjson</artifactId>
+      <version>1.2.6</version>
     </dependency>
+
     <!-- druid -->
+    <!-- https://mvnrepository.com/artifact/com.alibaba/druid -->
     <dependency>
       <groupId>com.alibaba</groupId>
       <artifactId>druid</artifactId>
-      <version>1.0.14</version>
+      <version>1.1.20</version>
     </dependency>
+
+    <!-- commons-io -->
+    <dependency>
+      <groupId>commons-io</groupId>
+      <artifactId>commons-io</artifactId>
+      <version>2.6</version>
+    </dependency>
+
+
     <!-- common-lang -->
     <dependency>
       <groupId>commons-lang</groupId>
@@ -133,6 +144,20 @@
       <artifactId>aspectjrt</artifactId>
       <version>1.7.4</version>
     </dependency>
+
+
+
+
+    <dependency>
+      <groupId>org.apache.poi</groupId>
+      <artifactId>poi</artifactId>
+      <version>4.0.1</version>
+    </dependency>
+    <dependency>
+      <groupId>org.apache.poi</groupId>
+      <artifactId>poi-ooxml</artifactId>
+      <version>4.0.1</version>
+    </dependency>
     <!--aspectj weaver-->
     <dependency>
       <groupId>org.aspectj</groupId>
@@ -145,12 +170,6 @@
       <groupId>cglib</groupId>
       <artifactId>cglib</artifactId>
       <version>3.1</version>
-    </dependency>
-
-    <dependency>
-      <groupId>org.apache.poi</groupId>
-      <artifactId>poi</artifactId>
-      <version>4.0.1</version>
     </dependency>
 
     <!-- mybatis -->
@@ -228,6 +247,20 @@
       <version>4.1.4</version>
     </dependency>
 
+    <dependency>
+      <groupId>com.mchange</groupId>
+      <artifactId>c3p0</artifactId>
+      <version>0.9.5.5</version>
+      <type>jar</type>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.junit.jupiter</groupId>
+      <artifactId>junit-jupiter</artifactId>
+      <version>RELEASE</version>
+      <scope>compile</scope>
+    </dependency>
+
 
   </dependencies>
 
@@ -253,8 +286,26 @@
             <artifactId>mysql-connector-java</artifactId>
             <version>5.1.21</version>
           </dependency>
+
+
+
         </dependencies>
       </plugin>
+
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-compiler-plugin</artifactId>
+        <configuration>
+          <source>1.8</source>
+          <target>1.8</target>
+          <encoding>UTF-8</encoding>
+          <compilerArguments>
+            <extdirs>${project.basedir}/src/main/webapp/WEB-INF/lib</extdirs>
+          </compilerArguments>
+        </configuration>
+      </plugin>
+
+
     </plugins>
 
     <pluginManagement><!-- lock down plugins versions to avoid using Maven defaults (may be moved to parent pom) -->
@@ -294,5 +345,13 @@
         </plugin>
       </plugins>
     </pluginManagement>
+
+
+
+
+
+
   </build>
+
+
 </project>

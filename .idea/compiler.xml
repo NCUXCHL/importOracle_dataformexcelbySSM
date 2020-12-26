@@ -9,5 +9,13 @@
         <module name="SSMMavenPro" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="SSMMavenPro" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="SSMMavenPro" options="-extdirs D:\NewC_Disk\Desktop\Java_project_team\SSMMavenPro_oracle_excel/src/main/webapp/WEB-INF/lib" />
+    </option>
   </component>
 </project>
